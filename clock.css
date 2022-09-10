@@ -1,0 +1,43 @@
+
+body{
+    background-image: linear-gradient( black, rgb(41, 39, 39));
+    background-repeat: no-repeat;
+    height: 96vh;
+    color: white;
+}
+.container{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#time{
+    font-size: 150px;
+}
+h1{
+    font-size: 70px;
+}
+#date{
+    font-size: 80px;
+}
+#stop{
+    margin-right: 20px;
+}
+#start{
+    margin-left: 10px;
+}
+button{
+    padding: 10px 20px;
+    font-size: 15px;
+    margin-top: 30px;
+    background-color: white;
+    color: black;
+    font-size: 20px;
+    border: 1px solid grey;
+    border-radius: 4px;
+}
+button:hover{
+    color: whitesmoke;
+    background-color: black;
+    opacity: 60%;
+}
